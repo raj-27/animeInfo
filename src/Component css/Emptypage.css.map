@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;CAMpB;;AARD,AAGI,WAHO,CAGP,KAAK,CAAC;EACF,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;CACxB",
-    "sources": [
-        "Emptypage.scss"
-    ],
-    "names": [],
-    "file": "Emptypage.css"
-}
