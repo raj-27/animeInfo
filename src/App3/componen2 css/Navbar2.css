@@ -1,0 +1,41 @@
+.navbar .toggle .toggle-input {
+  display: none;
+}
+
+.navbar .toggle .toggle-input:checked + .toggle-btn::before {
+  left: 57%;
+  background-color: #fff;
+}
+
+.navbar .toggle .toggle-input:checked + .toggle-btn {
+  background-color: #000;
+}
+
+.navbar .toggle .toggle-btn {
+  position: relative;
+  display: inline-block;
+  width: 3.5rem;
+  height: 1.7rem;
+  background-color: #fff;
+  font-size: .4rem;
+  border: 1px solid #000;
+  color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.navbar .toggle .toggle-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: .2rem .4rem;
+  border-radius: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 35%;
+  height: 80%;
+  background-color: #000;
+}
+/*# sourceMappingURL=Navbar2.css.map */
